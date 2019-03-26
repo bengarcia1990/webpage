@@ -6,135 +6,204 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Fun Facts About Chicago</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="labstyle.css">
     <script src="main.js"></script>
 </head>
 
 <body>
     <a id="top"></a>
-    <h1><b>Fun Facts About <em>Chicago!</em></b></h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="lab2.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="Geography.html">Geography <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="Population.html">Population <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="NotableChicagoans.html">Notable Chicagoans <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="Pizza.html">Pizza <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <h1>
+        <b>Fun Facts About <em>Chicago!</em></b>
+    </h1>
     <br>
-    <p class="header"><img class="flag"
-            src="C:Users\benja\Desktop\Project\webpage\lab\Images\Flag_of_Chicago,_Illinois.jpg" ,
-            alt="The Chicago Flag" , width="100px" , height="100px"> <em> by: Ben Garcia </em> <img class="seal"
-            src="C:Users\benja\Desktop\Project\webpage\lab\Images\Seal_of_Chicago_Illinois.jpg" , alt="Seal of Chicago"
-            , width="100px" , height="100px">
+    <p class="authorname">
+        <img id="flag" src="./Images/Flag_of_Chicago,_Illinois.jpg" , alt="The Chicago Flag">
+        <em> by: Ben Garcia </em>
+        <img id="seal" src="./Images/Seal_of_Chicago_Illinois.jpg" , alt="Seal of Chicago">
     </p>
 
+    <label>
+        <label class="radio" for="whatever"> Really</label>
+        <br>
+        <div class="radio">
+            <input class="radio" type="radio" name="whatever" value="Option 1"> Option 1
+            <br>
+            <span class="particular"><input class="radio" type="radio" name="whatever" value="Option 2"> Option 2</span>
+            <br>
+            <input class="radio" type="radio" name="whatever" value="Option 3"> Option 3
+        </div>
+    </label>
 
     <br>
     <br>
     <br>
+    <br>
+    <br>
+    <div class="text" id="loremtext">
+        <span id="loremhead">
+            <p>Lorem Ipsum</p>
+        </span>
+        <p>
+            <br>
+            "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+            "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is
+            pain..."
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tincidunt urna at neque convallis luctus.
+            Cras vitae aliquam nisi. Praesent rhoncus sit amet neque sed pretium. Fusce luctus egestas luctus. Etiam
+            cursus
+            enim et volutpat aliquet. Aenean dui velit, pretium in tincidunt a, consectetur id magna. Interdum et
+            malesuada
+            fames ac ante ipsum primis in faucibus. Ut iaculis varius nulla, eget gravida lectus congue id. Mauris
+            hendrerit
+            non est nec efficitur. In luctus tellus eu orci porta dapibus.
+        </p>
+        <p>
+            Vestibulum vehicula eleifend suscipit. Quisque sed turpis vitae nulla euismod tempus. Suspendisse nisi
+            tortor,
+            volutpat malesuada vulputate eget, iaculis ac orci. Maecenas augue turpis, maximus et molestie quis, ornare
+            pretium quam. Nam mattis dapibus ante. Ut eget maximus nisl. Mauris tempor, lectus ac commodo bibendum,
+            ligula
+            dui vulputate eros, eget rhoncus velit dui ut purus. <br>
+        </p>
+        <p>
+            Curabitur ultrices ornare mi nec auctor. Quisque varius vehicula purus. Integer sed lacus lacinia dolor
+            eleifend
+            varius. Vivamus lacinia fringilla libero, a pharetra nisl auctor nec. Aenean magna eros, sagittis eget arcu
+            eget, lobortis vehicula nulla. Mauris lobortis velit sit amet dolor rhoncus aliquam. Etiam interdum, neque
+            vel
+            pharetra tristique, ipsum ipsum scelerisque eros, sit amet pharetra lacus orci sit amet est. Curabitur
+            volutpat
+            porta dignissim. Suspendisse pulvinar tellus vel tristique ornare. Pellentesque sed mattis felis. Mauris
+            congue
+            arcu sed iaculis tempus. In sollicitudin, quam blandit dignissim volutpat, nunc ante commodo ipsum, eget
+            blandit
+            turpis lacus ac tellus. Sed sodales tempus aliquet. <br>
+        </p>
+        <p>
+            Fusce id diam vehicula, sagittis nunc nec, pharetra elit. Donec ullamcorper sed ligula quis eleifend. Nullam
+            vestibulum egestas tellus, blandit fringilla urna luctus nec. Praesent auctor lorem vitae convallis
+            tincidunt.
+            Quisque convallis eu justo vel interdum. Nulla consectetur rhoncus mauris, laoreet volutpat risus laoreet a.
+            Cras tristique venenatis magna, a rutrum mi dictum nec. Morbi eget orci at dui dictum posuere at vel lacus.
+            Aenean consequat metus magna, id tempus libero fermentum sed. Quisque molestie consequat velit laoreet
+            luctus.
+            Etiam libero risus, ultrices non venenatis eget, laoreet a leo. Proin dignissim quis velit eu gravida.
+            Vivamus
+            non urna a ligula fermentum tristique vel ac lorem. <br>
 
-    <ul>
-        <li><a href="#Geography">Geography</a></li>
-        <li><a href="#Population">Population</a></li>
-        <li><a href="#Notable_Chicagoans"> Notable Chicagoans</a></li>
-        <li><a href="#Pizza">Pizza</a></li>
-    </ul>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus ut sapien
+            pellentesque, commodo lacus sit amet, tristique enim. Vestibulum ipsum nisl, rhoncus ac ligula vitae,
+            euismod
+            ornare quam. Suspendisse vulputate dictum ipsum in feugiat. Class aptent taciti sociosqu ad litora torquent
+            per
+            conubia nostra, per inceptos himenaeos. Vivamus ultricies finibus sagittis. Fusce vel lobortis tortor.
+            Praesent
+            suscipit a velit quis lobortis. Curabitur eget ultricies arcu. Praesent malesuada eleifend placerat. Morbi
+            non
+            nibh ullamcorper, dictum magna quis, facilisis ante. Donec at nisl id lectus dignissim tristique. Phasellus
+            vel
+            imperdiet nibh, vel malesuada tellus. Duis tincidunt vehicula mi, at mollis justo pretium ut. Integer eget
+            convallis urna, at cursus nisl.
+        </p>
+    </div>
+    <!-- 
+    <audio src="https://www.youtube.com/watch?v=3YxaaGgTQYM" autoplay></audio>
+    <form>
+        <label for="firstName">What is your first name?</label><br>
+        <input type="password" name="firstName"><br>
+        <div class="paddingBottom">
+            <label for="age">What is your age?</label><br>
+            <input type="radio" name="age" value="0-25" checked>0-25<br>
+            <input type="radio" name="age" value="26-50">26-50<br>
+            <input type="radio" name="age" value="51-75">51-75<br>
+        </div>
 
-    <a id="Geography">
-        <h3>Geography</h3>
-    </a>
-    <br>
+        <input type="submit" value="Submit">
+        <div class="paddingBottom">
+            <label for="comment">Comments:</label><br>
+            <textarea name="comment" maxlength="50"></textarea>
+        </div>
+        <div class="paddingBottom">
+            <label for="dropdown">Choose an option:</label>
+            <br>
+            <select>
+                <option>choice 1</option>
+                <option>choice 2</option>
+                <option>choice 3</option>
+            </select>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
     <p>
-        <em>Chicago</em> is in Illinois in the Midwest.
-        It is considered the crown jewel of its <del>state</del> region.
-        For those that are not familiar with the geography of the United States,
-        please click <a href="https://goo.gl/images/F2mxsm">here!</a>
-    </p>
-    <p>
-        Located on the southwestern tip of Lake Michign, one of the Great Lakes, Chicago was
-        central to westward expansion in the early years of US history. In fact, Upton Sinclair's
-        classic novel "The Jungle" chronicles the experience of Chicagoans during the Industrial
-        Revolution.
-    </p>
-    <br>
-    <a href="#top">Back to Top</a>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <a id="Population">
-        <h3>Population</h3>
-    </a>
-    <br>
-    <p>
-        The city of Chicago has gone through several population swings in its short time in existence. <br>
-        Below, please find a table with notable inflection points: <br>
-
-        <table align="center">
-            <tr>
-                <td>Population</td>
-                <td>Year</td>
-            </tr>
-            <tr>
-                <td>1840</td>
-                <td>4470</td>
-            </tr>
-            <tr>
-                <td>1870</td>
-                <td>298977</td>
-            </tr>
-            <tr>
-                <td>1900</td>
-                <td>1698575</td>
-            </tr>
-            <tr>
-                <td>1930</td>
-                <td>3376438</td>
-            </tr>
-            <tr>
-                <td>1960</td>
-                <td>3550404</td>
-            </tr>
-            <tr>
-                <td>1990</td>
-                <td>2783726</td>
-            </tr>
-        </table>
-    </p>
-    <a href="#top">Back to Top</a>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <a id="Notable_Chicagoans">
-        <h3>Notable Chicagoans</h3>
-    </a>
-    <br>
-    <p>
 
     </p>
-    <a href="#top">Back to Top</a>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
-
-    <a id="Pizza">
-        <h3>Pizza</h3>
-    </a>
-    <br>
-    <p>
-
-    </p>
-
+ -->
     <br>
     <footer>
-        <p id="#footer">
+        <p id="footer">
             Copywrite 2019
         </p>
-        <a href="#top">Back to Top</a>
+        <div class="bottomnav">
+            <a href="#top">Back to Top</a>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="lab2.html">Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="Geography.html">Geography <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="Population.html">Population <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="NotableChicagoans.html">Notable Chicagoans <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="Pizza.html">Pizza <span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
     </footer>
 </body>
 

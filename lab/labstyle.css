@@ -1,55 +1,114 @@
 body{
     text-align: center;
     background-color:#a8cdff;
+    font-family: "Arial";
+    background-image: url("C:Users/benja/Desktop/Project/webpage/lab/Images/Chicago_Skyline.jpg");
+    background-blend-mode: soft-light; 
 }
 
 h1{
     color: #db3232;
 }
+
 h2{
-    font-size: 100px;
+    font-size: 300px;
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
 }
 h3{
     color:red;
-    margin: 50px;
-    padding: 50px;
-}
-.flag{
-   padding-left: 100px;
-   padding-right:10px;
-}
-.seal{
-    padding-left:10px;
-    padding-right:100px;
-}
+}   
 
-table{
-    border: 2px;
+
+table, th, td{
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
     border-style: solid;
-    text-align: center;
-    
+    text-align: center;  
 }
-ul{
-    list-style-type: none;
-    margin:auto;
-    width: 90px;
-    height: auto;
-    background-color: #db3232;
 
+#navbar{
+    text-decoration: blanchedalmond;
+    border-style: solid;
+    border-width: 10px;
 }
-ul>li{
-    display: block;
-    color:#000;
+/*  
+ul{
+    list-style:none;
+    margin:0;
 }
+*/
+
 .header{
     text-align: center;
 }
 p{
-    text-align: justify;
+    text-align: center;
+}
+.authorname{
+    font-size: 30px;
+    text-align: center;
 }
 #footer{
     text-align: center;
+}
+button{
+    border: ridge;
+    background-color: gray;
+}
+
+img{
+    height:250px;
+    width: 250px;
+}
+
+#flag{
+    height:70px;
+    width: 70px;
+ }
+ #seal{
+     height: 70px;
+     width: 70px;
+ }
+
+ .navlink{
+     background-color: red;
+ }
+ .radio{
+     background-color: black;
+     color: tomato;
+ }
+ .particular{
+     background-color: white;
+     color: blue;
+ }
+
+ .card-header{
+     color:white;
+     background-color: blue;
+ }
+ .card-body{
+     color: white;
+     background-color: blue;
+ }
+ .bottomnav{
+     opacity: 0.5;
+     position: fixed;
+     bottom:0;
+     width:100%;
+ }
+ 
+ #loremhead{
+     text-decoration-line: underline;
+     text-decoration-style: wavy;
+     text-align: center;
+     color: rgb(0, 128, 85);
+     font-size: 30px;
+     
+ }
+ .text{
+    text-align: left;
+    color:red;
 }
