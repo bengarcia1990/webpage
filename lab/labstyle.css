@@ -1,9 +1,84 @@
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  body {
+    margin: 0;
+    font: 16px/1 sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  blockquote,
+  figure,
+  ol,
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  main,
+  li {
+    display: block;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-size: inherit;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  a,
+  button {
+    color: inherit;
+    transition: .3s;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  button {
+    overflow: visible;
+    border: 0;
+    font: inherit;
+    -webkit-font-smoothing: inherit;
+    letter-spacing: inherit;
+    background: none;
+    cursor: pointer;
+  }
+  
+  ::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+  
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+  }
+
+
 body{
     text-align: center;
     background-color:#a8cdff;
     font-family: "Arial";
     background-image: url("C:Users/benja/Desktop/Project/webpage/lab/Images/Chicago_Skyline.jpg");
     background-blend-mode: soft-light; 
+    color: black;
 }
 
 h1{
@@ -45,7 +120,9 @@ ul{
     text-align: center;
 }
 p{
-    text-align: center;
+    font-family: 'Courgette', cursive;
+    text-align: left;
+    color: black;
 }
 .authorname{
     font-size: 30px;
@@ -54,11 +131,28 @@ p{
 #footer{
     text-align: center;
 }
-button{
-    border: ridge;
-    background-color: gray;
+#button{
+    padding: 10px 24px;
+    text-align: center;
+    border: solid;
+    background-color: white;
+    border-radius: 85%;
 }
+#button:hover{
+    background-color: red;
+    color: lightblue;
+}
+.button:hover{
 
+background-color: red;
+    color: lightblue;
+
+}
+#ChicagoLink{
+
+    text-align: center;
+    font-size: 10px;
+}
 img{
     height:250px;
     width: 250px;
@@ -106,9 +200,22 @@ img{
      text-align: center;
      color: rgb(0, 128, 85);
      font-size: 30px;
-     
+ }
+ #loremtext{
+    color: black;
+    font-family: 'Pacifico', cursive;
  }
  .text{
     text-align: left;
     color:red;
+}
+a:link{
+    font-size: 15px;
+    color: lightsalmon;
+}
+a:visited{
+    color: lightsalmon;
+}
+a:hover{
+    text-shadow: 1px 1px 1px 1px red;
 }

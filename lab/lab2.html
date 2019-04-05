@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="labstyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Proza+Libre" rel="stylesheet">
     <script src="main.js"></script>
 </head>
 
@@ -51,27 +52,13 @@
         <img id="seal" src="./Images/Seal_of_Chicago_Illinois.jpg" , alt="Seal of Chicago">
     </p>
 
-    <label>
-        <label class="radio" for="whatever"> Really</label>
-        <br>
-        <div class="radio">
-            <input class="radio" type="radio" name="whatever" value="Option 1"> Option 1
-            <br>
-            <span class="particular"><input class="radio" type="radio" name="whatever" value="Option 2"> Option 2</span>
-            <br>
-            <input class="radio" type="radio" name="whatever" value="Option 3"> Option 3
-        </div>
-    </label>
+    <br>
+    <br>
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <div class="text" id="loremtext">
-        <span id="loremhead">
-            <p>Lorem Ipsum</p>
-        </span>
+    <div class="text">
+
+        <p id="loremhead">Lorem Ipsum</p>
+
         <p>
             <br>
             "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
@@ -86,7 +73,7 @@
             hendrerit
             non est nec efficitur. In luctus tellus eu orci porta dapibus.
         </p>
-        <p>
+        <p id="loremtext">
             Vestibulum vehicula eleifend suscipit. Quisque sed turpis vitae nulla euismod tempus. Suspendisse nisi
             tortor,
             volutpat malesuada vulputate eget, iaculis ac orci. Maecenas augue turpis, maximus et molestie quis, ornare
@@ -108,7 +95,7 @@
             blandit
             turpis lacus ac tellus. Sed sodales tempus aliquet. <br>
         </p>
-        <p>
+        <p id="loremtext">
             Fusce id diam vehicula, sagittis nunc nec, pharetra elit. Donec ullamcorper sed ligula quis eleifend. Nullam
             vestibulum egestas tellus, blandit fringilla urna luctus nec. Praesent auctor lorem vitae convallis
             tincidunt.
@@ -135,7 +122,19 @@
             convallis urna, at cursus nisl.
         </p>
     </div>
-    <!-- 
+
+    <!-- <label> 
+        <label class="radio" for="whatever"> Really</label>
+        <br>
+        <div class="radio">
+            <input class="radio" type="radio" name="whatever" value="Option 1"> Option 1
+            <br>
+            <span class="particular"><input class="radio" type="radio" name="whatever" value="Option 2"> Option 2</span>
+            <br>
+            <input class="radio" type="radio" name="whatever" value="Option 3"> Option 3
+        </div>
+    </label>
+
     <audio src="https://www.youtube.com/watch?v=3YxaaGgTQYM" autoplay></audio>
     <form>
         <label for="firstName">What is your first name?</label><br>
@@ -169,11 +168,7 @@
  -->
     <br>
     <footer>
-        <p id="footer">
-            Copywrite 2019
-        </p>
         <div class="bottomnav">
-            <a href="#top">Back to Top</a>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="lab2.html">Home</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -198,6 +193,9 @@
                         </li>
                         <li class="nav-item active">
                             <a class="nav-link" href="Pizza.html">Pizza <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#top">Back to Top</a>
                         </li>
                     </ul>
 
